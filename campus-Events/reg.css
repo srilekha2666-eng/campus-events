@@ -1,0 +1,29 @@
+h1,h2{
+    color: rgb(93, 40, 40);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+a:hover {
+    color: rgb(93, 40, 40);
+    text-decoration: underline;
+}
+nav_link {
+    color: rgb(93, 40, 40);
+    text-decoration: none;
+}
+event_card {
+    border: 1px solid rgb(93, 40, 40);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+event_decription {
+    font-size: 16px;
+    color: rgb(93, 40, 40);
+}

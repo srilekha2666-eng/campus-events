@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <h1>Event Registration</h1>
+    <form action="/submit-registration" method="post">
+        <label for="name" background="lightgray">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email" background="lightgray">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="event" background="lightgray">Select Event:</label>
+        </select><label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+            <option value="">--Choose an event--</option>
+            <option value="paper-presentation">Paper Presentation</option>
+            <option value="dance">Dance</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
