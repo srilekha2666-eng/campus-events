@@ -55,4 +55,11 @@ function greets(name){
 }
 greets("shyn");
 greets("sri");
+//Arrow functions
+const add = (a, b) => {
+    return  a + b;
+};
+console.log(add(2,3));
+const square = n => n *n;
+console.log(square(4))
 
