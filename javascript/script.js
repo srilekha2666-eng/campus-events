@@ -43,31 +43,16 @@ while(count <= 3)
     console.log(count);
     count++;
 }
-
-let number =5 ;
-do {
-    console
+//functions
+function greet(){
+    console.log("Hello");
 }
-
-// for of and for in
-const events = ["Talk", "Workshop", "Hackthon"];
-for (const event of events){
-    console.log(event);
+greet();
+greet();
+//parameters and arguments
+function greets(name){
+    console.log("Hello, " + name);
 }
-const student = {name : "Maya"};
-for (const key in student)
-    console.log(Key, student[key]);
+greets("shyn");
+greets("sri");
 
-//print your name, course and a number using console.log()
-console.log("name:Srilekha");
-console.log("dep:csbs");
-console.log("number:10");
-
-// variable for an event name
-let event name= "tech fest";
-let ticket price =250;
-let seatsLeft= 3;
-console.log("event name");
-console.log("ticket price");
-console.log("seats left");
-//cal the total price 
