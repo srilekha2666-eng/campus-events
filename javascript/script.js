@@ -62,4 +62,6 @@ const add = (a, b) => {
 console.log(add(2,3));
 const square = n => n *n;
 console.log(square(4))
+//callbacks
+
 

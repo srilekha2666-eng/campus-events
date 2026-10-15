@@ -30,4 +30,30 @@ for(let i = 2; i <= n; i++)
         console.log(i)
     }
 }
-    
+//return
+function calculate(price, quantity) {
+  return price * quantity;}
+console.log(calculate(6,7));
+//write a function that accept a name and print a greeting
+
+function greeting(name){
+    console.log("hello,"+name);
+}
+
+//create an array a five event names and print its length
+const Events =["dance","signing","lemon in spoon","mimcry","desinig"];
+console.log(Events.length);
+
+//use filter() to keep number greater that 10
+
+//map
+let numbers = [4,5,7,9,10];
+let result= numbers.map(numbers =>numbers* 2);
+console.log(result);
+//reduce
+const prize=[20,30,40];
+let finalvalue = prize.reduce((sum,numbers) => sum + numbers,0);
+console.log(finalvalue);
+
+
+     
