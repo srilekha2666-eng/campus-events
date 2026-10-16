@@ -63,3 +63,15 @@ console.log(add(2,3));
 const square = n => n *n;
 console.log(square(4))
 //callbacks
+//global 
+const appnamee = "campusevent";
+function showApp(){
+    console.log(appnamee);
+}
+showApp()
+//function scope
+function registerStudent() {
+    const studentnamess = "Maya";
+    console.log(studentnamess);
+}
+registerStudent();

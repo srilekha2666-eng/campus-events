@@ -54,6 +54,11 @@ console.log(result);
 const prize=[20,30,40];
 let finalvalue = prize.reduce((sum,numbers) => sum + numbers,0);
 console.log(finalvalue);
+
+
+
+
+//day 5
 // create a book object with title,author and price
 let book = {
     title : "Hobbit",
@@ -116,4 +121,6 @@ const userWithoutCity = {
 };
 const city = userWithoutCity.profile?.address?.city ?? "Unknown City";
 console.log(city); 
+
+
 
