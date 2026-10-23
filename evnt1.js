@@ -10,4 +10,10 @@ console.log("three");
 console.log("registration received");
 setTimeout(() => console.log("registration confirmed"), 2000);
 console.log("processing...");
+ //jason 
+ const student = {name:"sri",age : 20};
+ const text = jason.stringify(student);
+ console.log(student);
+ //local storage 
+ localStorage.set
 
