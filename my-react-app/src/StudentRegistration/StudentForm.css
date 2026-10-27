@@ -1,0 +1,167 @@
+
+/* Student Registration CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f2f4f8;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+/* Main Registration Container */
+.registration-container {
+  width: 100%;
+  max-width: 550px;
+  margin: 20px auto;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Headings */
+.registration-container h1,
+.registration-container h2 {
+  text-align: center;
+  color: #174ea6;
+}
+
+.registration-container h1 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.registration-container h2 {
+  font-size: 21px;
+  margin-bottom: 25px;
+}
+
+/* Form Layout */
+.registration-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-container form > label {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Input Fields */
+.registration-container input:not([type="radio"]),
+.registration-container select,
+.registration-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.registration-container textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+/* Focus Effect */
+.registration-container input:focus,
+.registration-container select:focus,
+.registration-container textarea:focus {
+  outline: 2px solid #9bbcf5;
+  border-color: #174ea6;
+}
+
+/* Radio Buttons */
+.registration-container .registration-radio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.registration-container .registration-radio label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+}
+
+.registration-container input[type="radio"] {
+  cursor: pointer;
+}
+
+/* Error Message */
+.registration-container .registration-error {
+  color: #d00000;
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+/* Buttons */
+.registration-container .registration-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.registration-container button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #174ea6;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.registration-container button:hover {
+  background-color: #0d3475;
+}
+
+.registration-container button:focus-visible {
+  outline: 2px solid #174ea6;
+  outline-offset: 3px;
+}
+
+/* Registration Summary */
+.registration-container .registration-summary {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.registration-container .registration-summary p {
+  margin: 10px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .registration-container {
+    padding: 18px;
+    margin: 10px auto;
+  }
+
+  .registration-container h1 {
+    font-size: 22px;
+  }
+
+  .registration-container .registration-buttons {
+    flex-direction: column;
+  }
+}

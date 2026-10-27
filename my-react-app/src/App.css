@@ -1,0 +1,26 @@
+
+/* App.css */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Responsive layout */
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #root,
+  .App {
+    width: 100%;
+  }
+}

@@ -1,0 +1,45 @@
+
+/* index.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main page */
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f8;
+  color: #222;
+}
+
+/* React root */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Form elements */
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+}
+
+/* Smooth appearance */
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
