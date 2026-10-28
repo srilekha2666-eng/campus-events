@@ -1,0 +1,76 @@
+{
+  "event": [
+    {
+      "id": "1",
+      "title": "Tech Fest",
+      "date": "2026-11-10",
+      "time": "10:00 AM",
+      "venue": "Main Auditorium",
+      "category": "Technology",
+      "description": "A technical festival with coding competitions."
+    },
+    {
+      "id": "2",
+      "title": "Culture Day",
+      "date": "2026-11-15",
+      "time": "09:00 AM",
+      "venue": "College Ground",
+      "category": "Cultural",
+      "description": "Celebrate culture, music, dance and traditions."
+    },
+    {
+      "id": "3",
+      "title": "Sports Day",
+      "date": "2026-11-20",
+      "time": "08:00 AM",
+      "venue": "Sports Ground",
+      "category": "Sports",
+      "description": "Participate in games and sports competitions."
+    },
+    {
+      "id": "4",
+      "title": "Workshop",
+      "date": "2026-11-25",
+      "time": "11:00 AM",
+      "venue": "Seminar Hall",
+      "category": "Workshop",
+      "description": "Learn new skills from expert speakers."
+    },
+    {
+      "id": "5",
+      "title": "Hackathon",
+      "date": "2026-11-28",
+      "time": "09:00 AM",
+      "venue": "Computer Lab",
+      "category": "Technology",
+      "description": "Build innovative projects with your team."
+    },
+    {
+      "id": "6",
+      "title": "Photography Contest",
+      "date": "2026-12-02",
+      "time": "10:00 AM",
+      "venue": "Room 201",
+      "category": "Arts",
+      "description": "Showcase your photography skills."
+    },
+    {
+      "id": "7",
+      "title": "Career Guidance",
+      "date": "2026-12-05",
+      "time": "02:00 PM",
+      "venue": "Conference Hall",
+      "category": "Career",
+      "description": "Explore career paths and placement opportunities."
+    },
+    {
+      "id": "8",
+      "title": "Food Fest",
+      "date": "2026-12-10",
+      "time": "11:00 AM",
+      "venue": "College Ground",
+      "category": "Food",
+      "description": "Enjoy food stalls and student-made dishes."
+    }
+  ]
+}
